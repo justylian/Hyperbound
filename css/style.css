@@ -1,0 +1,1230 @@
+body { 
+  height: 100%; 
+  width: 100%; 
+  margin: 0;
+  position: relative; 
+
+  background-color: white;
+
+  
+}
+.content {
+  width: 1440;
+  height:100%;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+
+}
+.content footer {
+  border-top: 40px solid #c7e0d1;
+  font-weight: 200;
+  color:white;
+  text-align: center;   
+  width: 100%;     
+  height:100%;
+
+}
+.content nav {
+  display: inline-block;
+  overflow: auto; 
+  width: 100%;     
+  height:50%;
+
+}
+.content .me{
+  border-top: 40px solid #c7e0d1;
+  font-family: 'Advent Pro';
+  top:83%;
+  position:relative;
+  width:70%;
+  left:15%;
+
+
+}
+.content #slide2{
+  position:relative;
+
+}
+.head{ 
+  
+  font-family: 'Advent Pro';
+  position: relative; 
+  width: 100%;
+  height: 200px; 
+}
+
+
+.article {
+  border-top: 40px solid #c7e0d1;
+  font-family: 'Advent Pro';
+  position: relative; 
+  width: 70%;
+  left:15%;
+  height:100%;
+}
+.story{
+  font-family: 'Slabo 27px', serif;
+
+  position: relative; 
+  width: 70%;
+  left:15%;
+  height:100%;
+  color: #242047;
+}
+.innerstory{
+  border-left: 0.04px solid #d2d2d2;
+  width: 60%;
+  left:20%;
+  height:100%;
+  position: relative; 
+  padding:10px;
+  color: #242047;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+
+/*TEXT EDITS*/
+
+
+
+
+
+
+
+.head #name{
+  color: #242047;
+  font-size: 100px;
+  line-height: 80px;
+  position: relative; 
+  width: 20%;
+  border-top:10px solid #242047;
+  left:41%;
+  bottom:20%;
+  max-width:280px;
+
+
+
+}
+.head #name1{
+  color: #242047;
+  font-size: 100px;
+  line-height: 90px;
+  position: relative; 
+  width: 20%;
+  border-bottom:10px solid #242047;
+  left:41%;
+  bottom:55%;
+  max-width:280px;
+
+
+
+}
+.head #name2{
+ color: #242047;
+ font-size: 40px;
+ line-height: 70px;
+ position: relative; 
+ width: 20%;
+ left:44%;
+ bottom:90%;
+}
+
+.article #name3{
+  font-family: 'Playfair Display SC', serif;
+   color: white;
+   font-size: 160px;
+   text-align:right;
+   position: absolute; 
+   width: 100%;
+   bottom:45%;
+   right:2%;
+}
+
+.article #name5{
+  font-family: 'Playfair Display SC', serif;
+   color: white;
+   font-size: 160px;
+   text-align:right;
+   position: absolute; 
+   width: 100%;
+   bottom:55%;
+   right:2%;
+}
+.article #name4{
+  color: white;
+   font-size: 30px;
+   position: absolute; 
+   width: 60%;
+   left:18%;
+   top:83%;    
+  
+}
+.article #arrow1{
+  height:5px;
+  position: absolute;
+  top:75%;
+  right:85%;
+
+}
+.article #arrow2{
+    height:5px;
+  position: absolute;
+  top:75%;
+  right:81%;
+}
+.article  #slide1{
+  margin-top:20px;
+}
+
+.story #title{
+  font-family: 'Playfair Display SC', serif;
+   color: #242047;
+   font-size: 130px;
+   text-align:right;
+   position: absolute; 
+   width: 100%;
+   bottom:93.5%;
+   right:45%;
+   -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+
+/*ARROWS*/
+
+
+
+
+i {
+    border: solid #242047;
+    border-width: 0px 15px 15px 0px;
+    display: inline-block;
+    margin-left:47%;
+    padding: 40px;
+    z-index:2;
+    position: relative;
+}
+.down {
+  z-index:9;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+
+
+.left{
+  border-width: 0px 5px 5px 0px;
+ z-index:9;
+ padding: 20px;
+ margin-top:3%;
+ margin-left:5%;
+ transform: rotate(135deg);
+ -webkit-transform: rotate(135deg);
+}
+
+.left:hover{
+ border-width: 0px 5px 5px 0px;
+ transition:0.3s;
+ transform: rotate(495deg);
+   -webkit-transform: rotate(495deg);
+}
+
+.down:hover{
+  border-width: 0px 15px 15px 0px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.up{
+  border: solid white;
+  position:relative;
+  margin-left:0%;
+  margin-right:10%;
+  margin-bottom:-20%;
+  margin-top:20%;
+  padding: 20px;
+  border-width: 10px 0px 0px 10px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up:hover{
+  border-width: 10px 0px 0px 10px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.right {
+  border: solid white;
+  border-width: 0px 15px 15px 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+
+/*BUTTONS*/
+
+
+
+.fa {
+  padding: 0.8%;
+  font-size: 35px !important;
+  text-align: center;
+  text-decoration: none;
+  width: 3%;
+  margin-left: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  border-radius: 5%;
+}
+
+.fa:hover {
+   background: #242047;
+   transition: all 0.5s ease;
+}
+
+.fa-facebook {
+  background: #c7e0d1;
+  color: white;
+}
+.fa-instagram {
+  background: #c7e0d1;
+  color: white;
+}
+
+
+
+/*MENU*/
+
+ul{
+  list-style: none;
+  list-style-type: none;
+}
+#menua{
+  color:#242047;
+  font-size: 25px;
+  font-family: 'Advent Pro';
+  text-decoration: none;
+  border-bottom:1px solid #242047;
+  text-align:left;
+}
+#menua:hover{
+  background-color:#242047;
+  color:white;
+  transition:0.3s;
+}
+
+.head #navmenu{
+  display: none;
+  top:10%;
+  position:absolute;
+}
+
+
+
+
+
+
+
+/*NAVIGATION*/
+
+
+
+.head .nav{
+  position:absolute;
+  bottom:61%;
+  left:2%;
+}
+.navbar {
+  width: 60px;
+  display: block;
+  margin: 50px auto;
+  border: 4px solid #242047;
+  padding: 8px 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.navbar div {
+  height: 5px !important;
+  background: #242047;
+  margin: 7px 0px 7px 0px;
+  border-radius: 25px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.two {
+  width: 35px;
+}
+
+.three {
+  width: 50px;
+}
+
+.navbar:hover div {
+  width: 60px;
+}
+
+
+
+/*IMAGES*/
+
+img {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+img[data-src] {
+  opacity: 0;
+}
+
+
+.content img{
+  width:100%; 
+  height: 100%;
+}
+.content img:active {
+  width:100%; 
+  height: 100%;
+}
+/*BACK BUTTON*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #242047; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 4px; /* Some padding */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width: 375px){
+  
+  .article {
+    border-top: 20px solid #c7e0d1;
+    width: 100%;
+    left:0%;
+
+  }
+  .head{ 
+  
+    font-family: 'Advent Pro';
+    position: relative; 
+    width: 100%;
+    height: 100px; 
+  }
+  .content footer {
+    border-top: 40px solid #c7e0d1;
+    font-weight: 200;
+    color:white;
+    text-align: center;   
+    width: 100%;     
+    height:100%;
+    top:100px;
+    position:relative;
+  
+  }
+     
+  .content .story{
+    border-top: 40px solid #c7e0d1;
+    position: relative; 
+    width: 100%;
+    left:0%;
+    height:100%;
+    color: #242047;
+  }
+  .content .innerstory{
+    border-left: 0.04px solid #d2d2d2;
+    width: 96%;
+    left:1%;
+    height:100%;
+    position: relative; 
+    padding:4px;
+    top:100px;
+    color: #242047;
+  }
+  .story #title{
+    font-family: 'Playfair Display SC', serif;
+     color: #242047;
+     font-size: 100px;
+     text-align:right;
+     position: absolute; 
+     width: 100%;
+     bottom:98%;
+     right:0%;
+     -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+ 
+  
+.head #name{
+  border-top: 5px solid #242047;
+  color: #242047;
+  font-size: 50px;
+  line-height: 40px;
+  position: relative; 
+  width: 37%;
+  font-weight:bold;
+  left:32%;
+  top:-10%;
+  padding:1px;
+  height:30px;
+
+}
+.head #name1{
+  font-size: 49px;
+  line-height: 40px;
+  position: absolute; 
+  width: 37%;
+  border-bottom:5px solid #242047;
+  left:32%;
+  font-weight:bold;
+  padding:1px;
+  top:0%;
+  bottom:-13%;
+}
+.head #name2{
+  font-size: 18px;
+  width: 30%;
+  left:40%;
+  bottom:4%;
+}
+.head .navbar {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 50px auto;
+  border: 3px solid #242047;
+  padding: 8px 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+  
+  
+.article #name3{
+  font-family: 'Playfair Display SC', serif;
+   color: white;
+   font-size: 50px;
+   text-align:right;
+   position: absolute; 
+   width: 100%;
+   bottom:50%;
+   right:2%;
+}
+.article #name4{
+  color: white;
+   font-size: 20px;
+   position: absolute; 
+   width: 60%;
+   left:24%;
+   top:70%;    
+  
+}
+.article #arrow1{
+  height:1%;
+  position: absolute;
+  
+}
+.article #arrow2{
+    height:5px;
+  position: absolute;
+}
+i {
+  border: solid #242047;
+  border-width: 0px 5px 5px 0px;
+  display: inline-block;
+  margin-left:1%;
+  padding: 10px;
+  z-index:2;
+  position: relative;
+}
+  
+  .down {
+  z-index:9;
+  padding: 20px;
+  margin-left:45%;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.down:hover{
+  border-width: 0px 5px 5px 0px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.up{
+  border: solid white;
+  position:relative;
+  margin-left:0%;
+  margin-right:10%;
+  margin-bottom:-20%;
+  margin-top:20%;
+  padding: 9px;
+  border-width: 5px 0px 0px 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up:hover{
+  border-width: 3px 0px 0px 3px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.right {
+  border: solid white;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+  /*NAVIGATION*/
+  
+  
+  
+  .head .nav{
+    position:absolute;
+    bottom:21%;
+    left:3%;
+  }
+  .navbar {
+    width: 20px;
+      height: 20px;
+    display: block;
+    margin: 50px auto;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .navbar div {
+    height: 4px !important;
+    margin: 0px 0px 4px -5px;
+    border-radius: 25px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .two {
+    width: 20px;
+  }
+  
+  .three {
+    width: 30px;
+  }
+  
+  .navbar:hover div {
+    width: 30px;
+  }
+
+  #menua{
+    font-size: 20px;
+  }
+  .head #navmenu{
+    top:-125%;
+    right:7%;
+    position: relative;
+  }
+  .content footer {
+    border-top: 20px solid #c7e0d1;
+    font-weight: 200;
+    color:white;
+    text-align: center;   
+    width: 100%;     
+    height:100%;
+  
+  }
+  .fa {
+    padding: 0.8%;
+    font-size: 35px !important;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+  }
+  .content .me{
+    border-top: 40px solid #c7e0d1;
+    font-family: 'Advent Pro';
+    top:83%;
+    position:relative;
+    width:100%;
+    left:0%;
+
+  
+  }
+}
+@media screen and (max-width: 1024px){
+
+
+
+
+}
+
+@media screen and (max-width: 480px){
+
+  .article {
+    border-top: 20px solid #c7e0d1;
+    width: 100%;
+    left:0%;
+
+  }
+  .head{ 
+  
+    font-family: 'Advent Pro';
+    position: relative; 
+    width: 100%;
+    height: 100px; 
+  }
+  .content footer {
+    border-top: 40px solid #c7e0d1;
+    font-weight: 200;
+    color:white;
+    text-align: center;   
+    width: 100%;     
+    height:100%;
+    top:100px;
+    position:relative;
+  
+  }
+     
+  .content .story{
+    border-top: 40px solid #c7e0d1;
+    position: relative; 
+    width: 100%;
+    left:0%;
+    height:100%;
+    color: #242047;
+  }
+  .content .innerstory{
+    border-left: 0.04px solid #d2d2d2;
+    width: 96%;
+    left:1%;
+    height:100%;
+    position: relative; 
+    padding:4px;
+    top:100px;
+    color: #242047;
+  }
+  .story #title{
+    font-family: 'Playfair Display SC', serif;
+     color: #242047;
+     font-size: 100px;
+     text-align:right;
+     position: absolute; 
+     width: 100%;
+     bottom:98%;
+     right:0%;
+     -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+ 
+  
+.head #name{
+  border-top: 5px solid #242047;
+  color: #242047;
+  font-size: 50px;
+  line-height: 40px;
+  position: relative; 
+  width: 37%;
+  font-weight:bold;
+  left:32%;
+  top:-10%;
+  padding:1px;
+  height:30px;
+
+}
+.head #name1{
+  font-size: 49px;
+  line-height: 40px;
+  position: absolute; 
+  width: 37%;
+  border-bottom:5px solid #242047;
+  left:32%;
+  font-weight:bold;
+  padding:1px;
+  top:0%;
+  bottom:-13%;
+}
+.head #name2{
+  font-size: 18px;
+  width: 30%;
+  left:40%;
+  bottom:4%;
+}
+.head .navbar {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 50px auto;
+  border: 3px solid #242047;
+  padding: 8px 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+  
+  
+.article #name3{
+  font-family: 'Playfair Display SC', serif;
+   color: white;
+   font-size: 50px;
+   text-align:right;
+   position: absolute; 
+   width: 100%;
+   bottom:50%;
+   right:2%;
+}
+.article #name4{
+  color: white;
+   font-size: 20px;
+   position: absolute; 
+   width: 60%;
+   left:24%;
+   top:70%;    
+  
+}
+.article #arrow1{
+  height:1%;
+  position: absolute;
+  
+}
+.article #arrow2{
+    height:5px;
+  position: absolute;
+}
+i {
+  border: solid #242047;
+  border-width: 0px 5px 5px 0px;
+  display: inline-block;
+  margin-left:1%;
+  padding: 10px;
+  z-index:2;
+  position: relative;
+}
+  
+  .down {
+  z-index:9;
+  padding: 20px;
+  margin-left:45%;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.down:hover{
+  border-width: 0px 5px 5px 0px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.up{
+  border: solid white;
+  position:relative;
+  margin-left:0%;
+  margin-right:10%;
+  margin-bottom:-20%;
+  margin-top:20%;
+  padding: 9px;
+  border-width: 5px 0px 0px 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up:hover{
+  border-width: 3px 0px 0px 3px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.right {
+  border: solid white;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+  /*NAVIGATION*/
+  
+  
+  
+  .head .nav{
+    position:absolute;
+    bottom:21%;
+    left:3%;
+  }
+  .navbar {
+    width: 20px;
+      height: 20px;
+    display: block;
+    margin: 50px auto;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .navbar div {
+    height: 4px !important;
+    margin: 0px 0px 4px -5px;
+    border-radius: 25px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .two {
+    width: 20px;
+  }
+  
+  .three {
+    width: 30px;
+  }
+  
+  .navbar:hover div {
+    width: 30px;
+  }
+
+  #menua{
+    font-size: 20px;
+  }
+  .head #navmenu{
+    top:-125%;
+    right:7%;
+    position: relative;
+  }
+  .content footer {
+    border-top: 20px solid #c7e0d1;
+    font-weight: 200;
+    color:white;
+    text-align: center;   
+    width: 100%;     
+    height:100%;
+  
+  }
+  .fa {
+    padding: 0.8%;
+    font-size: 35px !important;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+  }
+  .content .me{
+    border-top: 40px solid #c7e0d1;
+    font-family: 'Advent Pro';
+    top:83%;
+    position:relative;
+    width:100%;
+    left:0%;
+
+  
+  }
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  html {
+    transform: rotate(-90deg);
+    transform-origin: left top;
+    width: 100vh;
+    overflow-x: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 411px){
+  
+  .article {
+    border-top: 20px solid #c7e0d1;
+    width: 100%;
+    left:0%;
+
+  }
+  .head{ 
+  
+    font-family: 'Advent Pro';
+    position: relative; 
+    width: 100%;
+    height: 100px; 
+  }
+  .content footer {
+    border-top: 40px solid #c7e0d1;
+    font-weight: 200;
+    color:white;
+    text-align: center;   
+    width: 100%;     
+    height:100%;
+    top:100px;
+    position:relative;
+  
+  }
+     
+  .content .story{
+    border-top: 40px solid #c7e0d1;
+    position: relative; 
+    width: 100%;
+    left:0%;
+    height:100%;
+    color: #242047;
+  }
+  .content .innerstory{
+    border-left: 0.04px solid #d2d2d2;
+    width: 96%;
+    left:1%;
+    height:100%;
+    position: relative; 
+    padding:4px;
+    top:100px;
+    color: #242047;
+  }
+  .story #title{
+    font-family: 'Playfair Display SC', serif;
+     color: #242047;
+     font-size: 100px;
+     text-align:right;
+     position: absolute; 
+     width: 100%;
+     bottom:98%;
+     right:0%;
+     -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+ 
+  
+.head #name{
+  border-top: 5px solid #242047;
+  color: #242047;
+  font-size: 50px;
+  line-height: 40px;
+  position: relative; 
+  width: 37%;
+  font-weight:bold;
+  left:32%;
+  top:-10%;
+  padding:1px;
+  height:30px;
+
+}
+.head #name1{
+  font-size: 49px;
+  line-height: 40px;
+  position: absolute; 
+  width: 37%;
+  border-bottom:5px solid #242047;
+  left:32%;
+  font-weight:bold;
+  padding:1px;
+  top:0%;
+  bottom:-13%;
+}
+.head #name2{
+  font-size: 18px;
+  width: 30%;
+  left:40%;
+  bottom:4%;
+}
+.head .navbar {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin: 50px auto;
+  border: 3px solid #242047;
+  padding: 8px 10px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+  
+  
+.article #name3{
+  font-family: 'Playfair Display SC', serif;
+   color: white;
+   font-size: 50px;
+   text-align:right;
+   position: absolute; 
+   width: 100%;
+   bottom:50%;
+   right:2%;
+}
+.article #name4{
+  color: white;
+   font-size: 20px;
+   position: absolute; 
+   width: 60%;
+   left:24%;
+   top:70%;    
+  
+}
+.article #arrow1{
+  height:1%;
+  position: absolute;
+  
+}
+.article #arrow2{
+    height:5px;
+  position: absolute;
+}
+i {
+  border: solid #242047;
+  border-width: 0px 5px 5px 0px;
+  display: inline-block;
+  margin-left:1%;
+  padding: 10px;
+  z-index:2;
+  position: relative;
+}
+  
+  .down {
+  z-index:9;
+  padding: 20px;
+  margin-left:45%;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.down:hover{
+  border-width: 0px 5px 5px 0px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.up{
+  border: solid white;
+  position:relative;
+  margin-left:0%;
+  margin-right:10%;
+  margin-bottom:-20%;
+  margin-top:20%;
+  padding: 9px;
+  border-width: 5px 0px 0px 5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.up:hover{
+  border-width: 3px 0px 0px 3px;
+  transition:0.3s;
+  transform: rotate(405deg);
+    -webkit-transform: rotate(405deg);
+}
+.right {
+  border: solid white;
+  border-width: 0px 5px 5px 0px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+  /*NAVIGATION*/
+  
+  
+  
+  .head .nav{
+    position:absolute;
+    bottom:21%;
+    left:3%;
+  }
+  .navbar {
+    width: 20px;
+      height: 20px;
+    display: block;
+    margin: 50px auto;
+    padding: 8px 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .navbar div {
+    height: 4px !important;
+    margin: 0px 0px 4px -5px;
+    border-radius: 25px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .two {
+    width: 20px;
+  }
+  
+  .three {
+    width: 30px;
+  }
+  
+  .navbar:hover div {
+    width: 30px;
+  }
+
+  #menua{
+    font-size: 20px;
+  }
+  .head #navmenu{
+    top:-125%;
+    right:7%;
+    position: relative;
+  }
+  .content footer {
+    border-top: 20px solid #c7e0d1;
+    font-weight: 200;
+    color:white;
+    text-align: center;   
+    width: 100%;     
+    height:100%;
+  
+  }
+  .fa {
+    padding: 0.8%;
+    font-size: 35px !important;
+    text-align: center;
+    text-decoration: none;
+    width: 10%;
+    margin-left: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10%;
+  }
+  .content .me{
+    border-top: 40px solid #c7e0d1;
+    font-family: 'Advent Pro';
+    top:83%;
+    position:relative;
+    width:100%;
+    left:0%;
+
+  
+  }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HYPERBOUND | Stories</title>
+    <link rel="shortcut icon" type="image/jpg" href="resources/fav.png"/>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.0.4/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.0.4/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.0.4/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.0.4/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.0.4/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBxB8fozwDkiQ1A0zdIKROEoLsCTMCX9DE",
+        authDomain: "travel-8e124.firebaseapp.com",
+        databaseURL: "https://travel-8e124.firebaseio.com",
+        projectId: "travel-8e124",
+        storageBucket: "travel-8e124.appspot.com",
+        messagingSenderId: "98299122699"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script async type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="description" content="HYPERBOUND">
+    <meta name="keywords" content="HYPERBOUND,blog,hyper,bound,travel">
+    <meta name="author" content="Stylianos Xenakis">
+    <link rel="stylesheet" type="text/css" href="css/style.css">  
+    <link href="//fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700" rel="stylesheet">
+
+
+  </head>
+  <body>
+
+      <div class="content">
+          <a href="index.html"><i class="arrow left"></i></a>
+
+          <a href="lisbon.html">
+          <div class="article" >
+            <img id="slide1"  data-src="resources/lisbonpanorama.jpg" >
+            <a href="lisbon.html"><h2 id="name3">LISBON</h2>
+            <i class="arrow right" id="arrow1"></i>
+            <i class="arrow right" id="arrow2"></i>
+            <h2 id="name4">read the story</h2></a>
+            <h2 id=""></h2>
+          </div>
+          </a>
+          <a href="index.html">
+              <div class="article" >
+                <img id="slide1"  data-src="resources/portopanorama.jpg" >
+                <a href="index.html"><h2 id="name3">PORTO</h2>
+                <i class="arrow right" id="arrow1"></i>
+                <i class="arrow right" id="arrow2"></i>
+                <h2 id="name4">story soon available </h2></a>
+                <h2 id=""></h2>
+              </div>
+              </a>
+          <footer>
+            <a href="https://www.instagram.com/hyperbound/" class="fa fa-instagram"></a>
+          </footer>
+          <button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="arrow up" id="arrow2"></i> </button>
+
+
+
+        </div>
+  </body>
+</html>
