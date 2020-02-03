@@ -7,4 +7,4 @@
  Technologies used: HTML5, SCSS, Javascript
 
 
-![alt text](Screenshot 2020-01-14 at 9.31.22 PM.png.png)
+![alt text](Screenshot 2020-01-14 at 9.31.22 PM.png)
