@@ -1,5 +1,5 @@
-# hyperbound
- Hyperbound Travel Blog
+# Hyperbound Travel Blog
+ 
  
  
  Design and development of a personal travel blog showcasing stories, tips and photographs.
