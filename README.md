@@ -6,26 +6,7 @@
 
  Technologies used: HTML5, SCSS, Javascript
 
- ## Screen Records
+ 
+## Overview
 
-![](rec1.gif)
-
-![](rec2.gif)
-## Screenshots
-![alt text](Screenshot1.png)
-
-![alt text](Screenshot2.png)
-
-![alt text](Screenshot3.png)
-
-![alt text](Screenshot4.png)
-
-![alt text](Screenshot5.png)
-
-![alt text](Screenshot6.png)
-
-![alt text](Screenshot7.png)
-
-![alt text](Screenshot8.png)
-
-![alt text](Screenshot9.png)
+![alt text](guide/hyper-presentation.png)
